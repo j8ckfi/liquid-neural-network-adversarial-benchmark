@@ -1,0 +1,283 @@
+{
+  "datasets": {
+    "mnist": {
+      "overlap": {
+        "train_n": 60000,
+        "test_n": 10000,
+        "train_unique_hashes": 60000,
+        "test_unique_hashes": 10000,
+        "train_test_exact_overlap_hashes": 0,
+        "overlap_fraction_of_test": 0.0,
+        "overlap_same_label_count": 0,
+        "overlap_diff_label_count": 0
+      },
+      "split_disjointness": {
+        "total_train_dataset_size": 60000,
+        "val_size": 5000,
+        "all_seed_splits_disjoint": true,
+        "per_seed": [
+          {
+            "seed": 41,
+            "train_len": 55000,
+            "val_len": 5000,
+            "intersection_size": 0,
+            "union_size": 60000
+          },
+          {
+            "seed": 42,
+            "train_len": 55000,
+            "val_len": 5000,
+            "intersection_size": 0,
+            "union_size": 60000
+          },
+          {
+            "seed": 43,
+            "train_len": 55000,
+            "val_len": 5000,
+            "intersection_size": 0,
+            "union_size": 60000
+          },
+          {
+            "seed": 44,
+            "train_len": 55000,
+            "val_len": 5000,
+            "intersection_size": 0,
+            "union_size": 60000
+          },
+          {
+            "seed": 45,
+            "train_len": 55000,
+            "val_len": 5000,
+            "intersection_size": 0,
+            "union_size": 60000
+          }
+        ]
+      },
+      "within_split_hash_stats": {
+        "train": {
+          "n": 60000,
+          "unique_hashes": 60000,
+          "duplicate_count_within_split": 0
+        },
+        "test": {
+          "n": 10000,
+          "unique_hashes": 10000,
+          "duplicate_count_within_split": 0
+        }
+      }
+    },
+    "fashion_mnist": {
+      "overlap": {
+        "train_n": 60000,
+        "test_n": 10000,
+        "train_unique_hashes": 60000,
+        "test_unique_hashes": 10000,
+        "train_test_exact_overlap_hashes": 0,
+        "overlap_fraction_of_test": 0.0,
+        "overlap_same_label_count": 0,
+        "overlap_diff_label_count": 0
+      },
+      "split_disjointness": {
+        "total_train_dataset_size": 60000,
+        "val_size": 5000,
+        "all_seed_splits_disjoint": true,
+        "per_seed": [
+          {
+            "seed": 41,
+            "train_len": 55000,
+            "val_len": 5000,
+            "intersection_size": 0,
+            "union_size": 60000
+          },
+          {
+            "seed": 42,
+            "train_len": 55000,
+            "val_len": 5000,
+            "intersection_size": 0,
+            "union_size": 60000
+          },
+          {
+            "seed": 43,
+            "train_len": 55000,
+            "val_len": 5000,
+            "intersection_size": 0,
+            "union_size": 60000
+          },
+          {
+            "seed": 44,
+            "train_len": 55000,
+            "val_len": 5000,
+            "intersection_size": 0,
+            "union_size": 60000
+          },
+          {
+            "seed": 45,
+            "train_len": 55000,
+            "val_len": 5000,
+            "intersection_size": 0,
+            "union_size": 60000
+          }
+        ]
+      },
+      "within_split_hash_stats": {
+        "train": {
+          "n": 60000,
+          "unique_hashes": 60000,
+          "duplicate_count_within_split": 0
+        },
+        "test": {
+          "n": 10000,
+          "unique_hashes": 10000,
+          "duplicate_count_within_split": 0
+        }
+      }
+    },
+    "qmnist": {
+      "overlap": {
+        "train_n": 60000,
+        "test_n": 60000,
+        "train_unique_hashes": 60000,
+        "test_unique_hashes": 60000,
+        "train_test_exact_overlap_hashes": 0,
+        "overlap_fraction_of_test": 0.0,
+        "overlap_same_label_count": 0,
+        "overlap_diff_label_count": 0
+      },
+      "split_disjointness": {
+        "total_train_dataset_size": 60000,
+        "val_size": 5000,
+        "all_seed_splits_disjoint": true,
+        "per_seed": [
+          {
+            "seed": 41,
+            "train_len": 55000,
+            "val_len": 5000,
+            "intersection_size": 0,
+            "union_size": 60000
+          },
+          {
+            "seed": 42,
+            "train_len": 55000,
+            "val_len": 5000,
+            "intersection_size": 0,
+            "union_size": 60000
+          },
+          {
+            "seed": 43,
+            "train_len": 55000,
+            "val_len": 5000,
+            "intersection_size": 0,
+            "union_size": 60000
+          },
+          {
+            "seed": 44,
+            "train_len": 55000,
+            "val_len": 5000,
+            "intersection_size": 0,
+            "union_size": 60000
+          },
+          {
+            "seed": 45,
+            "train_len": 55000,
+            "val_len": 5000,
+            "intersection_size": 0,
+            "union_size": 60000
+          }
+        ]
+      },
+      "within_split_hash_stats": {
+        "train": {
+          "n": 60000,
+          "unique_hashes": 60000,
+          "duplicate_count_within_split": 0
+        },
+        "test": {
+          "n": 60000,
+          "unique_hashes": 60000,
+          "duplicate_count_within_split": 0
+        }
+      }
+    },
+    "cifar10": {
+      "overlap": {
+        "train_n": 50000,
+        "test_n": 10000,
+        "train_unique_hashes": 50000,
+        "test_unique_hashes": 10000,
+        "train_test_exact_overlap_hashes": 0,
+        "overlap_fraction_of_test": 0.0,
+        "overlap_same_label_count": 0,
+        "overlap_diff_label_count": 0
+      },
+      "split_disjointness": {
+        "total_train_dataset_size": 50000,
+        "val_size": 5000,
+        "all_seed_splits_disjoint": true,
+        "per_seed": [
+          {
+            "seed": 41,
+            "train_len": 45000,
+            "val_len": 5000,
+            "intersection_size": 0,
+            "union_size": 50000
+          },
+          {
+            "seed": 42,
+            "train_len": 45000,
+            "val_len": 5000,
+            "intersection_size": 0,
+            "union_size": 50000
+          },
+          {
+            "seed": 43,
+            "train_len": 45000,
+            "val_len": 5000,
+            "intersection_size": 0,
+            "union_size": 50000
+          },
+          {
+            "seed": 44,
+            "train_len": 45000,
+            "val_len": 5000,
+            "intersection_size": 0,
+            "union_size": 50000
+          },
+          {
+            "seed": 45,
+            "train_len": 45000,
+            "val_len": 5000,
+            "intersection_size": 0,
+            "union_size": 50000
+          }
+        ]
+      },
+      "within_split_hash_stats": {
+        "train": {
+          "n": 50000,
+          "unique_hashes": 50000,
+          "duplicate_count_within_split": 0
+        },
+        "test": {
+          "n": 10000,
+          "unique_hashes": 10000,
+          "duplicate_count_within_split": 0
+        }
+      }
+    }
+  },
+  "results_integrity": {
+    "per_seed_dir": "/Users/j8ck/research/publishable_v2_full/per_seed",
+    "expected_shards": 40,
+    "present_shards": 40,
+    "missing_shards": 0,
+    "missing_list": [],
+    "aggregate_summary_exists": true,
+    "raw_results_exists": true
+  },
+  "summary": {
+    "all_datasets_zero_exact_train_test_overlap": true,
+    "all_seeds_train_val_disjoint": true,
+    "all_expected_result_shards_present": true,
+    "contamination_status": "PASS"
+  }
+}

@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+
+# Virtual env
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Data and generated local caches
+data/
+.mplconfig/
+
+# Logs
+*.log
+
+# Intermediate/smoke outputs
+results_*/
+*smoke*/
+tune_run1/
+
+# Keep curated benchmark outputs
+!publishable_v2_full/
+!paper_artifacts/
+!paper/
+
