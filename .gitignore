@@ -12,6 +12,7 @@ venv/
 
 # OS/editor
 .DS_Store
+**/.DS_Store
 .idea/
 .vscode/
 
@@ -32,3 +33,14 @@ tune_run1/
 !paper_artifacts/
 !paper/
 
+# Paper build artifacts
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/main.pdf
+paper/missfont.log
+paper/proof-*.png
+paper/proof2-*.png
+paper/arxiv_draft_v1.pdf

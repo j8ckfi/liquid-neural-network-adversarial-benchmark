@@ -1,6 +1,8 @@
 # Paper Package
 
 - Main draft: [`manuscript.md`](/Users/j8ck/research/paper/manuscript.md)
+- Final arXiv-style PDF: [`Adversarial-Robustness-of-Liquid-Time-Constant-Networks.pdf`](/Users/j8ck/research/paper/Adversarial-Robustness-of-Liquid-Time-Constant-Networks.pdf)
+- ArXiv LaTeX source: [`main.tex`](/Users/j8ck/research/paper/main.tex)
 - Bibliography: [`references.bib`](/Users/j8ck/research/paper/references.bib)
 - Core benchmark outputs: [`publishable_v2_full/`](/Users/j8ck/research/publishable_v2_full)
 - Contamination report: [`paper_artifacts/contamination_report.md`](/Users/j8ck/research/paper_artifacts/contamination_report.md)
